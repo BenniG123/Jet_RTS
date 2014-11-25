@@ -18,6 +18,8 @@ public class Control : MonoBehaviour {
 		//Change control to a different jet
 		if(Input.GetKeyDown(KeyCode.Return)) {
 			GameObject[] jets = GameObject.FindGameObjectsWithTag("FriendlyJet");
+			controlee.GetComponent<Movement>().accelDecel = 0;
+			controlee.GetComponent<Movement>().leftRight = 0;
 			controlee = jets[toggle].transform;
 			GetComponent<BoundingBox>().target = controlee;
 			toggle++;

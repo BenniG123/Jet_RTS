@@ -51,7 +51,7 @@
      <Compile Include="Assets\Scripts\MissileMovement.cs" />
      <Compile Include="Assets\Scripts\RedJet\Control.cs" />
      <Compile Include="Assets\Scripts\RedJet\Movement.cs" />
-     <Compile Include="Assets\redTriangleMovement.cs" />
+     <Compile Include="Assets\Scripts\redTriangleMovement.cs" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
   </ItemGroup>
   <ItemGroup>
